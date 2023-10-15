@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    
+	<title>Daniel O'keefe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="icon" href="images/background.jpg" type="image/icon type">
+    
+
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <title-logo>
+            <a href="index.html">Daniel O'keefe</a>
+            </title-logo>
+            <div class="nav-links" id="nav-links">
+                
+                
+                
+                
+                <img class="fa" src="images/x.png" onclick="hideMenu()"></img>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="">Future</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <img  class="fa" src="images/Icon-menu.PNG" onclick="showMenu()"></img>
+        </nav>
+        <div class="text-box" >
+            <h1>Welcome to my website</h1>
+            <p>A tech enthusiast and student who's self-coded this space to share my passion for all things technology! <br>Follow the links above to explore my content</p>
+            <a href="" class="button-contact">Hello</a>
+        </div>
+
+        
+    </section>
+<section class="fade">
+<section class="about-me">
+    <h1>About me<br><br></h1>
+    <p>Greetings! I'm Daniel, a recent A-level graduate with a keen interest in the fascinating world of technology. Having completed my A-levels in Computer Science, Biology, and Geography, I've embarked on a year-long journey of self-discovery and exploration before diving back into full-time education. During this time, I've devoted myself to my passion for programming, immersing myself in the intricacies of the digital realm.<br><br>
+
+        Proficient in languages like Python and C#, I thrive on the thrill of problem-solving and the endless possibilities that coding brings. The virtual canvas is where I express my creativity, and I'm proud to say that I can craft webpages like the one you're currently exploring.<br><br>
+        
+        Join me on my digital odyssey, where I'll share my insights, projects, and discoveries in the programming realm. Together, let's unlock the potential of technology and embark on an exciting journey through the digital landscape.
+        </p>
+</section>
+</section>
+
+<section class="interests" id="interests">
+
+    <h1>Interests and hobbies <br><br><br><br></h1>
+    <div class="row">
+        <div class="column">
+            <img src="images/door.jpg" alt="travel">
+            <div class="layer">
+                <p>Beyond the realms of technology, I'm a firm believer in the importance of a well-rounded life.<br> When I'm not immersed in the digital world, you can often find me exploring new destinations, feeding my wanderlust one adventure at a time.<br><br><br><br><br> Traveling broadens my horizons and fuels my curiosity.</p>
+            </div>
+            
+
+        </div>
+        <div class="column">
+            <img src="images/fixing.jpg" alt="fixing">
+            <div class="layer" >
+                <p class="center">I also have a penchant for fixing things. Whether it's taking apart a gadget to understand its inner workings or tackling a DIY home project, I thrive on the satisfaction of making things work better.</p>
+            </div>
+
+        </div>
+
+            <div class="column" >
+                <img src="images/book.jpg" alt="book">
+                <div class="layer">
+                    <p class="center">And, of course, there's the world of books. I'm an avid reader, always on the lookout for the next great novel or informative non-fiction piece. Books have the remarkable ability to transport us to different worlds and expand our knowledge, which is something I truly cherish.</p>
+                </div>
+            
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+    <h4>About us</h4>
+    <p>this is the texrt and this this the final description where you can reachh thte bottom oif tge page so type tsnf thslp to dhs me </p>
+    <section class="copywrite">
+    <p>© Daniel Okeefe 2023</p>
+    </section>
+</section>
+
+<!----toggle menu------->
+    <script>
+
+        var navlinks = document.getElementById("nav-links");
+        function showMenu(){
+            navlinks.style.right = "0";
+
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>

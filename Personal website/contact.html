@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    
+	<title>Daniel O'keefe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="icon" href="images/background.jpg" type="image/icon type">
+    
+
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <title-logo>
+            <a href="index.html">Daniel O'keefe</a>
+            </title-logo>
+            <div class="nav-links" id="nav-links">
+                
+                
+                
+                
+                <img class="fa" src="images/x.png" onclick="hideMenu()"></img>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Interests</a></li>
+                    <li><a href="">Future</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <img  class="fa" src="images/Icon-menu.PNG" onclick="showMenu()"></img>
+        </nav>
+        <div class="text-box" >
+            <h1>Contact</h1>
+            <p>Interested in connecting or have questions? Don't hesitate to reach out <br> I'd love to hear from you!</p>
+            <a href="" class="button-contact">hello</a>
+        </div>
+
+        
+    </section>
+<section class="contact-me" id="contact">
+    <div class="contact-col">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="text" name="email" placeholder="Enter your email"required>
+            <textarea rows="10"  name="message" placeholder="Your message"required></textarea>
+            <button type="submit" class="contact-btn">Submit</button>
+
+
+
+        </form>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+    <h4>About us</h4>
+    <p>this is the texrt and this this the final description where you can reachh thte bottom oif tge page so type tsnf thslp to dhs me </p>
+    <section class="copywrite">
+    <p>© Daniel Okeefe 2023</p>
+    </section>
+</section>
+
+<!----toggle menu------->
+    <script>
+
+        var navlinks = document.getElementById("nav-links");
+        function showMenu(){
+            navlinks.style.right = "0";
+
+        }
+
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
