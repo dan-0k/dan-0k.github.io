@@ -1,6 +1,9 @@
 *{
     margin: 0;
-    padding: 0
+    padding: 0;
+    
+    
+    
 }
 
 .header{
@@ -14,15 +17,18 @@
     
 }
 
-title-logo{
+.title-logo a{
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;  
     /*font-style: normal; 
     font-variant: normal; 
     font-weight: 600; 
     line-height: 26.4px;*/
     font-size: 60px;
-    color: #b61b1b;
-    text-decoration-style: none;/*remove underline*/
+    color: #ffffff;
+    text-decoration: none;
+    
+    text-decoration: none;/*remove underline*/
+    list-style: none;
     
     
 }
@@ -57,7 +63,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #f47738;
     display: block;/*dont display transition yet*/
     margin: auto;
     transition: 0.4s;
@@ -105,8 +111,8 @@ nav{
 }
 
 .button-contact:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #f47738;
+    background: #f47738;
     transition: 1s;
 
 
@@ -170,8 +176,10 @@ nav .fa {
 .footer p{
     margin: 0px;
     margin-top: 5px;
+    text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
+    font-size: 15px;
 
 
 
@@ -185,7 +193,7 @@ nav .fa {
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 900px){
     .text-box h1{
         font-size: 40px;
     }
@@ -196,7 +204,7 @@ nav .fa {
     }
     .nav-links{
         position: fixed;
-        background: #f44336;
+        background: #f47738;
         height: 100vh;
         top: 0;
         right: -200px;
@@ -269,7 +277,7 @@ html { scroll-behavior: smooth;}
 
 
 .layer:hover{
-    background: rgba(226, 0, 0, 0.7);
+    background: rgba(244,119,56,255);
     
 }
 
@@ -297,7 +305,7 @@ html { scroll-behavior: smooth;}
     padding: 15px;
     margin-bottom: 18px;
     outline: none;
-    border: 1px solid rgba(226, 0, 0, 0.7) ;
+    border: 1px solid rgba(244,119,56,255) ;
 
 
 
@@ -307,7 +315,7 @@ html { scroll-behavior: smooth;}
     display: inline-block;
     text-decoration: none;
     color: #020202;
-    border: 1px solid #f44336;
+    border: 1px solid #f47738;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -317,9 +325,37 @@ html { scroll-behavior: smooth;}
 
 }
 .contact-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #f47738;
+    background: #f47738;
     transition: 1s;
 
 
+}
+
+/*<--------------future-------->*/
+
+.future-section {
+
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+
+}
+
+.future-section h1{
+
+    
+    font-size: 30px;
+}
+
+.future-section p{
+
+    padding-top: 20px;
+    font-size: 20px;
+    padding: 10px;
 }
