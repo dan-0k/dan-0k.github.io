@@ -195,7 +195,7 @@ nav .fa {
 
 @media(max-device-width: 500px){
     .text-box h1{
-        font-size: 40px;
+        font-size: 50px;
     }
     .nav-links ul li{
         
@@ -215,7 +215,7 @@ nav .fa {
     nav .fa{
         display: block;
         color: #fff;
-        margin: 10px;
+        margin: 50px;
         font-size: 22px;
         cursor: pointer;
 
