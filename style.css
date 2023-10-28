@@ -193,7 +193,7 @@ nav .fa {
 
 }
 
-@media(max-width: 900px){
+@media(max-device-width: 500px){
     .text-box h1{
         font-size: 40px;
     }
